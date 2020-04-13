@@ -13,7 +13,7 @@ var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "sleekLoad 2";
+var l_serverName = "";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,9 +50,11 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg"
+	"backgrounds/images/01.jpg",
+	"backgrounds/images/02.jpg",
+	"backgrounds/images/03.jpg"
+        
+        
 ];
 
 /*Random background images order?*/
@@ -69,7 +71,7 @@ in milliseconds*/
 var l_bgImageFadeVelocity = 2000;
 
 /*Enable background overlay?*/
-var l_bgOverlay = true;
+var l_bgOverlay = false;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
@@ -105,7 +107,7 @@ var l_messagesEnabled = true;
 var l_messages = [
 "Enjoy the server",
 "Thanks for joining us!",
-"Did you know these backgrounds and songs are from Touhou?"
+"Your playing on"
 ];
 
 /*Random message order?*/
